@@ -28,3 +28,6 @@ The system continuously monitors the gas concentration in the environment using 
 
 ## Working Principle
 The MQ-2 gas sensor detects the presence of gas in the environment and sends the sensor readings to the ESP8266 microcontroller. The microcontroller continuously checks the gas value and compares it with a predefined threshold. When the gas level exceeds the threshold, the system activates the ventilation mechanism. A servo motor rotates to open the window, and the fan turns on to remove the gas from the environment. Once the gas level returns to a safe value, the fan stops and the window closes automatically.
+
+## Gerber File
+Gerber files are used for manufacturing printed circuit boards.In this project, the system was implemented by using a breadboard prototype for testing and demonstration purpose
